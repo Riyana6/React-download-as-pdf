@@ -4,14 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import CsvDownloader from 'react-csv-downloader';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+<CsvDownloader>
+  <button>Download</button>
+</CsvDownloader>
+
+const datas = [{
+  cell1: 'row 1 - cell 1',
+  cell2: 'row 1 - cell 2'
+}, {
+  cell1: 'row 2 - cell 1',
+  cell2: 'row 2 - cell 2'
+}];
+
+<CsvDownloader datas={datas}/>
+
+const columns = [{
+  id: 'cell1',
+  displayName: 'Cell 1'
+}, {
+  id: 'cell2',
+  displayName: 'Cell 2'
+}];
+
+<CsvDownloader columns={columns}/> 
