@@ -28,6 +28,7 @@ function App() {
         <CsvDownloader
           filename="myfile"
           separator=";"
+          wrapColumnChar="'"
           columns={head}
           datas={datas}
         />
