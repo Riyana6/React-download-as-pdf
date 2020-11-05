@@ -1,9 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
 import CsvDownloader from 'react-csv-downloader';
-
 const head = [{
   id: 'first',
   displayName: 'First column',
@@ -11,7 +9,6 @@ const head = [{
   id: 'second',
   displayName: 'Second column',
 }];
-
 const datas = [{
   first: 'foo',
   second: 'bar',
@@ -19,7 +16,6 @@ const datas = [{
   first: 'foobar',
   second: 'foobar',
 }];
-
 function App() {
   return (
     <div className="App">
@@ -28,7 +24,6 @@ function App() {
         <CsvDownloader
           filename="myfile"
           separator=";"
-          wrapColumnChar="'"
           columns={head}
           datas={datas}
         />
@@ -36,5 +31,5 @@ function App() {
     </div>
   );
 }
-
 export default App;
+
