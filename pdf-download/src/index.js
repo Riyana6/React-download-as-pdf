@@ -166,5 +166,5 @@ const Example = () => {
   );
 };
 
-render(<Example/>, document.querySelector("root")
+render(<Example/>, document.querySelector("#root")
 );
