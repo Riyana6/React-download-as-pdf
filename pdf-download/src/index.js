@@ -167,4 +167,4 @@ const Example = () => {
 };
 
 render(<Example/>, document.querySelector("#root")
-)
+);
