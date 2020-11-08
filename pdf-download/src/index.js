@@ -152,7 +152,7 @@ class ComponentToPrint extends React.Component {
   }
 }
 
-const Example =  => {
+const Example = () => {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
