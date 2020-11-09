@@ -112,7 +112,7 @@ class ComponentToPrint extends React.Component {
         <div>
           <img src="https://i.pinimg.com/originals/e4/43/6e/e4436e9474484cafc97c168c4e0fd90e.jpg" alt="baby" width="400px" height="250px"/>
         </div>
-      </div
+      </div>
     );
   }
 }
