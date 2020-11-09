@@ -110,41 +110,6 @@ class ComponentToPrint extends React.Component {
         vitae justo eget magna fermentum iaculis.
         </div>
         <div>
-        Used with verbs:
-
-        "I see your point."
-        (see, get, understand)
-
-        "He missed the point."
-        (missed)
-
-        "You have a great point."
-        (have)
-
-        "She made a good point."
-        (made, raised)
-
-        "She argued her point."
-        (argued, proved, illustrated, discussed)
-
-        "I have reached this point in my life through a lot of effort."
-        (reached, gotten to)
-
-        "We added up the points."
-        (added up, totaled)
-
-        "The team gained a point in the last quarter."
-        (gained, scored, earned)
-
-        "One point was deducted."
-        (be + deducted, be + taken away)
-
-        Used with nouns:
-
-        "What was the point difference?"
-        (difference)
-        </div>
-        <div>
           <img src="https://i.pinimg.com/originals/e4/43/6e/e4436e9474484cafc97c168c4e0fd90e.jpg" alt="baby" width="400px" height="250px"/>
         </div>
       </div>
