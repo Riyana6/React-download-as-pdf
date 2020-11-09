@@ -123,7 +123,7 @@ const Example = () => {
     content: () => componentRef.current,
   });
  
-  return (
+  return 
     <div>
       <ComponentToPrint ref={componentRef} />
       <button onClick={handlePrint}>Print this out!</button>
