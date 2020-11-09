@@ -48,7 +48,7 @@ render(<Example/>, document.querySelector("#root")
 
 
 
-/*import React, { useRef } from 'react';
+import React, { useRef } from 'react';
 import { render } from 'react-dom';
 import { useReactToPrint } from 'react-to-print';
 
@@ -88,8 +88,8 @@ const Example = () => {
 };
 
 render(<Example/>, document.querySelector("#root")
-);*/
-
+);
+/*
 import React, { useRef } from 'react';
 import { render } from 'react-dom';
 import { useReactToPrint } from 'react-to-print';
@@ -167,4 +167,4 @@ const Example = () => {
 };
 
 render(<Example/>, document.querySelector("#root")
-);
+);*/
