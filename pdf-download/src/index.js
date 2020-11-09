@@ -164,7 +164,7 @@ const Example = () => {
       <button onClick={handlePrint}>Print this out!</button>
     </div>
   );
-}
+};
 
 render(<Example/>, document.querySelector("#root")
 );*/
