@@ -121,7 +121,7 @@ const Example = () => {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-  });
+  })
  
   return (
     <div>
